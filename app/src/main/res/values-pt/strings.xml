@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Entrevista Udacity</string>
+    <string name="congrats">Incrível! Você é uma ótima pessoa!</string>
+    <string name="finish_quiz">Finalizar</string>
+    <string name="no">Não</string>
+    <string name="yes">Sim</string>
+    <string name="question1">O nome do desenvolvedor que fez esse app é Jonathan?</string>
+    <string name="question2">Você o ajudaria a se candidatar a vagas de emprego em alguma empresa após o curso?</string>
+    <string name="question3">Ele tem muitos hábitos de lazer, um deles é fazer música!\nQual o nome da canção do link abaixo?</string>
+    <string name="question4">Ele vai ganhar um desconto para fazer outro curso no Udacity?</string>
+    <string name="sorry">Tente novamente.</string>
+    <string name="your_name">Seu nome</string>
+    <string name="answer_text_B">Claro! Eu posso!</string>
+    <string name="answer_text_C">Não, eu não posso ajuda-lo.</string>
+    <string name="answer">Resposta</string>
+    <string name="lets_go">Vamos lá!</string>
+    <string name="finalScore">Pontuação total =</string>
+    <string name="finalMessage">Obrigado!</string>
+    <string name="tip">" <a href="http://hyperurl.co/4l2ch0">http://hyperurl.co/4l2ch0</a>"</string>
+    <string name="correctAnswers">"GABARITO: "</string>
+    <string name="userAnswers">SUAS RESPOSTAS:</string>
+    <string name="answer_text_A">Sim</string>
+    <string name="answerFour">Sim</string>
+    <string name="answerOne">Sim</string>
+    <string name="subject">"Udacity quiz feito por: "</string>
+    <string name="yourFinalScoreIs">"Sua pontuação final é: "</string>
+    <string name="rightAnswerText" translatable="false">Resposta</string>
+    <string name="sharetoemail">Enviar para e-mail</string>
+    <string name="share_to_email">Enviar para e-mail</string>
+</resources>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jonat.udacityinterview.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="24dp"
+        android:paddingTop="24dp">
+
+        <EditText
+            android:id="@+id/your_name"
+            style="@style/EditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/your_name" />
+
+        <TextView
+            style="@style/EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/lets_go"
+            android:textSize="34sp" />
+
+        <TextView
+            style="@style/Questions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question1" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            style="@style/RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/yes_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="36dp"
+                android:onClick="radioButtonClicked"
+                android:text="@string/yes" />
+
+            <RadioButton
+                android:id="@+id/no_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="radioButtonClicked"
+                android:text="@string/no" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/Questions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question2" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/letter_a"
+                style="@style/Letters"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a" />
+
+            <TextView
+                android:id="@+id/letter_b"
+                style="@style/Letters"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/letter_a"
+                android:text="@string/b" />
+
+            <TextView
+                android:id="@+id/letter_c"
+                style="@style/Letters"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/letter_b"
+                android:text="@string/c" />
+
+            <CheckBox
+                android:id="@+id/checkbox_a"
+                style="@style/Checkboxes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/letter_a"
+                android:onClick="checkReturnA"
+                android:text="@string/answer_text_A" />
+
+            <CheckBox
+                android:id="@+id/checkbox_b"
+                style="@style/Checkboxes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/letter_b"
+                android:onClick="checkReturnB"
+                android:text="@string/answer_text_B" />
+
+            <CheckBox
+                android:id="@+id/checkbox_c"
+                style="@style/Checkboxes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/letter_c"
+                android:onClick="checkReturnC"
+                android:text="@string/answer_text_C" />
+
+        </RelativeLayout>
+
+        <TextView
+            style="@style/Questions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question3" />
+
+        <TextView
+            style="@style/Questionwithlink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:text="@string/tip" />
+
+        <EditText
+            android:id="@+id/add_name_text"
+            style="@style/EditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/answer" />
+
+        <TextView
+            style="@style/Questions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question4" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup2"
+            style="@style/RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/yes_radio_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="36dp"
+                android:onClick="radioButtonClicked2"
+                android:text="@string/yes" />
+
+            <RadioButton
+                android:id="@+id/no_radio_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="radioButtonClicked2"
+                android:text="@string/no" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:onClick="shareMethod"
+            android:text="@string/finish_quiz" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+
+

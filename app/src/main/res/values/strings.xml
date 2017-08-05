@@ -1,0 +1,52 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Udacity Interview</string>
+    <string name="your_name">Your name</string>
+    <string name="lets_go">Let\'s go!</string>
+
+    <!--Strings for Questions-->
+    <string name="question1">"The name from this developer, that made this app is Jonathan? "</string>
+    <string name="question2">Do you would to help him for to apply on job vacancies on any company that you know, after this course?</string>
+    <string name="question3">"Jonathan likes many activities, another one its make music!\n What is the song name this link: "</string>
+    <string name="tip"> <a href="http://hyperurl.co/4l2ch0">http://hyperurl.co/4l2ch0</a></string>
+    <string name="question4">He will be to get a amazing discount on other course from Udacity?</string>
+
+    <!--Strings for Radio Button-->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="answer">Answer</string>
+
+    <!--Strings to Alternatives from checkbox-->
+    <string name="a" translatable="false">A -</string>
+    <string name="b" translatable="false">B -</string>
+    <string name="c" translatable="false">C -</string>
+
+    <!--Strings for answers text together from checkbox-->
+    <string name="answer_text_A">Yes</string>
+    <string name="answer_text_B">Sure, I can!</string>
+    <string name="answer_text_C">No, I can not help his</string>
+    <string name="finish_quiz">Finish Quiz</string>
+
+    <!--Toast-->
+    <string name="sorry">Try again.</string>
+    <string name="yourFinalScoreIs">Your final score is: </string>
+    <string name="congrats">Amazing! You are a big people!</string>
+
+    <!--USer Answers-->
+    <string name="answerOne"> Yes  </string>
+    <string name="answerTwo" translatable="false"> A and B  </string>
+    <string name="answerThree" translatable="false"> Enlightening  </string>
+    <string name="answerFour"> Yes  </string>
+
+    <!--Final Report to Intent-->
+    <string name="subject">" Udacity quiz made by: "</string>
+    <string name="rightAnswerText"> Answer </string>
+    <string name="correctAnswers">CORRECT ANSWERS</string>
+    <string name="userAnswers">YOUR ANSWERS:</string>
+    <string name="finalScore">Total score: </string>
+    <string name="finalMessage">\nThank you!</string>
+    <string name="do_you_want_to_try_again">Do you want to try again?</string>
+    <string name="end_quiz">End Quiz</string>
+    <string name="share_to_email">Share to email</string>
+
+</resources>
