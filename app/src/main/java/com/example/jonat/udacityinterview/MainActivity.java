@@ -21,9 +21,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
     }
+    
 /*
  Essas strings foram utilizadas para gerar a informação que o usuario escolheu.
  Método que foram chamadas: "createUserChoicesReport" , penúltimo metodo desse código.
