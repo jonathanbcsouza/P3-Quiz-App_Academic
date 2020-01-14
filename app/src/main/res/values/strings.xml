@@ -5,11 +5,11 @@
     <string name="lets_go">Let\'s go!</string>
 
     <!--Strings for Questions-->
-    <string name="question1">"The name from this developer, that made this app is Jonathan? "</string>
-    <string name="question2">Do you would to help him for to apply on job vacancies on any company that you know, after this course?</string>
-    <string name="question3">"Jonathan likes many activities, another one its make music!\n What is the song name this link: "</string>
+    <string name="question1">"The name of this app'' developer is Jonathan? "</string>
+    <string name="question2">Do you would help him to apply for job vacancies on any company that you know, after this course?</string>
+    <string name="question3">"Jonathan likes many activities, one another one is to make music!\n What is the song name on this link: "</string>
     <string name="tip"> <a href="http://hyperurl.co/4l2ch0">http://hyperurl.co/4l2ch0</a></string>
-    <string name="question4">He will be to get a amazing discount on other course from Udacity?</string>
+    <string name="question4">Wii he to get a amazing discount in other course Udacity`s course?</string>
 
     <!--Strings for Radio Button-->
     <string name="yes">Yes</string>
@@ -45,8 +45,8 @@
     <string name="userAnswers">YOUR ANSWERS:</string>
     <string name="finalScore">Total score: </string>
     <string name="finalMessage">\nThank you!</string>
-    <string name="do_you_want_to_try_again">Do you want to try again?</string>
-    <string name="end_quiz">End Quiz</string>
+    <string name="do_you_want_to_try_again" translatable="false">Do you want to try again?</string>
+    <string name="end_quiz" translatable="false">End Quiz</string>
     <string name="share_to_email">Share to email</string>
 
 </resources>

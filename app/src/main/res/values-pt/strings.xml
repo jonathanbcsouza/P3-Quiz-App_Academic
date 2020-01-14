@@ -26,6 +26,5 @@
     <string name="subject">"Udacity quiz feito por: "</string>
     <string name="yourFinalScoreIs">"Sua pontuação final é: "</string>
     <string name="rightAnswerText" translatable="false">Resposta</string>
-    <string name="sharetoemail">Enviar para e-mail</string>
     <string name="share_to_email">Enviar para e-mail</string>
 </resources>
